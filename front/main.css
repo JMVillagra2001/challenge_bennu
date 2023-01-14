@@ -1,0 +1,76 @@
+body {
+    margin: 40px auto;
+    font-family: Arial;
+    max-width: 640px;
+}
+
+.question {
+    margin-bottom: 60px;
+}
+
+hr {
+    margin: 40px;
+    border: none;
+    border-top: 1px solid #bbb;
+}
+
+/********************************
+ * QUESTION 4.
+ * Añado un estilado propio
+ *******************************/
+.form-control {
+    display: flex;
+    padding: 4px;
+    width: 100%;
+}
+
+.form-control input {
+    width: 100%;
+    margin-inline: 4px;
+    padding: 4px;
+}
+
+/* Add your code after this line */
+/********************************
+ * QUESTION 6.
+ *******************************/
+/* Add your code after this line */
+.q6-wrapper {
+    background: #EFEFEF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.q6-wrapper > .q6-block:nth-child(1), 
+.q6-block:nth-child(3), 
+.q6-block:nth-child(5) {
+    background: #00FF00!important;
+}
+
+.q6-wrapper .q6-block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: #333;
+}
+
+/* Add your code after this line */
+/********************************
+ * QUESTION 7.
+ *******************************/
+/* Add your code after this line */
+
+header {
+    background: #F00;
+    color: #FFF;
+}
+
+.file-name {
+    color: #00F;
+    font-weight: bolder;
+}
+
+#my-name {
+    text-transform: uppercase;
+}
